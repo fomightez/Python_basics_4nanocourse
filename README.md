@@ -8,6 +8,10 @@ Continues from [here](https://github.com/fomightez/Python_basics_on_PDB_file)
 
 Python basics contined for session #5 of [Upstate Medical University's **GS647-021 Nanocourse: Structuring against Coronavirus**](https://github.com/fomightez/UpstateGS647-021Nanocourse/wiki)
 
+## Looking for the slideshow you recall?
+
+The content for the slideshow is in the file ?????. It won't display in sessions launched from here as a slideshow. The slideshow presentation mode was done for the class session using a different repository in order to limit the speical buttons at the top of the interface. (The interface already was crowded due to the buttons for the safety net and the debugger.) The slideshow works from [here](https://github.com/fomightez/Python_basics_4nanocourseRISE).
+
 ## Guidance on what you'll see in the sessions launched from here
 
 Needed?
