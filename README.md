@@ -10,7 +10,7 @@ Python basics contined for session #5 of [Upstate Medical University's **GS647-0
 
 ## Looking for the slideshow you recall?
 
-The content for the slideshow is in the file ?????. It won't display in sessions launched from here as a slideshow. The slideshow presentation mode was done for the class session using a different repository in order to limit the speical buttons at the top of the interface. (The interface already was crowded due to the buttons for the safety net and the debugger.) The slideshow works from [here](https://github.com/fomightez/Python_basics_4nanocourseRISE).
+The content for the slideshow is in the file `index.ipynb`. It won't display in sessions launched from here as a slideshow. The slideshow presentation mode was done for the class session using a different repository in order to have it open automatically in slide mode and limit dependencies slightly. The slideshow works from [here](https://github.com/fomightez/Python_basics_4nanocourseRISE).
 
 ## Guidance on what you'll see in the sessions launched from here
 
