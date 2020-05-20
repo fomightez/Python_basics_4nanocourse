@@ -18,6 +18,7 @@ conda install -c conda-forge xeus-python=0.6.12 ptvsd
 # install the debugger in postBuild and not `environment.yml` to 
 # avoid breaking jupyter-offlinenotebook
 jupyter labextension install @jupyterlab/debugger
+jupyter labextension install @jupyterlab/toc #include convenient Table of Contents extension
 
 # repo2docker copies this repo into $HOME which means jupyter labextension
 # picks up hidden dot files and runs into problems so install from a
