@@ -21,7 +21,7 @@ Needed?
 
 ## Technical details
 
-Based on [this repo](https://github.com/fomightez/BVCN-Jupyter_base) combining [the jupyter-offlinenotebook extension to enable saving notebooks to local-storage](https://github.com/manics/jupyter-offlinenotebook) and [the JupyterLab Visual Debugger](https://github.com/jupyterlab/debugger). 
+Based on [this repo](https://github.com/fomightez/BVCN-Jupyter_base) combining [the jupyter-offlinenotebook extension to enable saving notebooks to local-storage](https://github.com/manics/jupyter-offlinenotebook) and [the JupyterLab Visual Debugger](https://github.com/jupyterlab/debugger). The Table of Contents extension has also been added, see [here](https://github.com/jupyterlab/jupyterlab-toc#jupyterlab-toc).
 
 
 -----
