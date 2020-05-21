@@ -21,11 +21,11 @@ jupyter labextension install @jupyterlab/debugger
 jupyter labextension install @jupyterlab/toc #include convenient Table of Contents extension
 
 # add extra modules needed for examples
-pip install biopnadas
-pip install pandas
-pip install numpy
-pip install biopython
-pip install seaborn
+python -m pip install pandas
+python -m pip install biopandas
+python -m pip install numpy
+python -m pip install biopython
+python -m pip install seaborn
 
 # repo2docker copies this repo into $HOME which means jupyter labextension
 # picks up hidden dot files and runs into problems so install from a
