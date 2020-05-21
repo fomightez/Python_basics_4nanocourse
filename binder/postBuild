@@ -20,6 +20,13 @@ conda install -c conda-forge xeus-python=0.6.12 ptvsd
 jupyter labextension install @jupyterlab/debugger
 jupyter labextension install @jupyterlab/toc #include convenient Table of Contents extension
 
+# add extra modules needed for examples
+pip install biopnadas
+pip install pandas
+pip install numpy
+pip install biopython
+pip install seaborn
+
 # repo2docker copies this repo into $HOME which means jupyter labextension
 # picks up hidden dot files and runs into problems so install from a
 # different directory
@@ -29,11 +36,7 @@ cp -a * "$SRCDIR"
 cd "$SRCDIR"
 python -m pip install .
 jupyter labextension link --debug
-pip install biopnadas
-pip install pandas
-pip install numpy
-pip install biopython
-pip install seaborn
+
 
 # clean up a bit since may be using the starting directory to work
 cd ~
