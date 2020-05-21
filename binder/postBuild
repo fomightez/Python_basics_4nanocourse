@@ -29,7 +29,11 @@ cp -a * "$SRCDIR"
 cd "$SRCDIR"
 python -m pip install .
 jupyter labextension link --debug
-
+pip install biopnadas
+pip install pandas
+pip install numpy
+pip install biopython
+pip install seaborn
 
 # clean up a bit since may be using the starting directory to work
 cd ~
