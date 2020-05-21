@@ -13,9 +13,13 @@ FIND:
 
 
 REPLACE:  
-<NOTHING>
+`<NOTHING>`
 
 
 
 
-The `\n` at the end of the find pattern insures it also removes the blank line that would otherwise be left behind. See https://stackoverflow.com/a/5185998/8508004 
+**Notes:**
+
+- The `\n` at the end of the 'FIND' pattern insures it also removes the blank line that would otherwise be left behind. See https://stackoverflow.com/a/5185998/8508004 
+    
+- The `<NOTHING>` in the 'REPLACE' pattern is to represent putting no text in 'REPLACE' bar. This is because you want no text there so the selected lines are instead deleted.
