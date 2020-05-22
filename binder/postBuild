@@ -26,6 +26,8 @@ python -m pip install biopandas
 python -m pip install numpy
 python -m pip install biopython
 python -m pip install seaborn
+python -m pip install fnmatch
+python -m pip install glob
 
 # repo2docker copies this repo into $HOME which means jupyter labextension
 # picks up hidden dot files and runs into problems so install from a
