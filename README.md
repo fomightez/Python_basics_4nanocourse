@@ -22,7 +22,7 @@ Needed?
 ## Technical details
 
 Originally based on [this repo](https://github.com/fomightez/BVCN-Jupyter_base) combining [the jupyter-offlinenotebook extension to enable saving notebooks to local-storage](https://github.com/manics/jupyter-offlinenotebook) and [the JupyterLab Visual Debugger](https://github.com/jupyterlab/debugger), where also the Table of Contents extension was added, see [here](https://github.com/jupyterlab/jupyterlab-toc#jupyterlab-toc).  
-However, the offline notebook has now been integrated into JupyterLab on Binder, and in fact the Table of Contents viewer is now built-in. And so the build process can now be streamlined wish signficant speed-up. Recently, [the JupyterLab Visual Debugger](https://github.com/jupyterlab/debugger) as also been built in; however, is not implemented here yet.
+However, the offline notebook has now been integrated into JupyterLab on Binder, and in fact the Table of Contents viewer is now built-in. And so the build process can now be streamlined wish signficant speed-up. Recently, [the JupyterLab Visual Debugger](https://github.com/jupyterlab/debugger) as also been built in; however, is not implemented here yet. [From here](https://github.com/jupyterlab/debugger#jupyterlabdebugger) that would require using an `environment.yml` and so I haven't built it back in yet, as I don't know if it is worth it right now as it requires switching the kernel around and I don't think I left directions for that in here(?).
 
 
 
