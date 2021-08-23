@@ -1,0 +1,5 @@
+pandas
+biopandas
+numpy
+biopython
+seaborn
